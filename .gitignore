@@ -1,0 +1,70 @@
+# =========================
+# Java / Spring Boot
+# =========================
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+out/
+
+# =========================
+# Eclipse (just in case)
+# =========================
+.project
+.classpath
+.settings/
+
+# =========================
+# VS Code (if opened once)
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp
+# =========================
+logs/
+*.tmp
+
+# =========================
+# Environment / configs
+# =========================
+.env
+application-local.yml
+application-dev.yml
+application-*.yml
+
+# Allow default config
+!application.yml
+
+# =========================
+# Test reports
+# =========================
+/test-output/
+/build/reports/
+/build/test-results/
+
+# =========================
+# Docker (optional future)
+# =========================
+docker-compose.override.yml
